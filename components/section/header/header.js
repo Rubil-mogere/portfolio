@@ -10,7 +10,7 @@ export default function Header({onOptionSelect,isHomePage}){
     }
     return (
         <div className={isHomePage ? styles.homeHeader : styles.wrapper}>
-            <h4 className={isHomePage ? styles.homeHeaderNameTxt : styles.nameTxt}>KiRTI</h4>
+            <h4 className={isHomePage ? styles.homeHeaderNameTxt : styles.nameTxt}>RUBIL</h4>
             {/* add animation text here */}
             <div className={styles.heading}>
             {headerOptions.map((option)=>(  
